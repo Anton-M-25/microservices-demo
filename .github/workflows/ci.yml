@@ -21,8 +21,8 @@ jobs:
       #- name: Restore
       #  run: dotnet restore
 
-	- name: Restore
-  	  run: dotnet restore microservices-demo.sln
+      - name: Restore
+        run: dotnet restore microservices-demo.sln
 
       # Si no tienes proyectos de test, puedes comentar este paso
       # - name: Test
