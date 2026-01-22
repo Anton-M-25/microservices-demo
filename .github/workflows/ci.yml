@@ -18,8 +18,11 @@ jobs:
         with:
           dotnet-version: "8.0.x"
 
-      - name: Restore
-        run: dotnet restore
+      #- name: Restore
+      #  run: dotnet restore
+
+	- name: Restore
+  	  run: dotnet restore microservices-demo.sln
 
       # Si no tienes proyectos de test, puedes comentar este paso
       # - name: Test
