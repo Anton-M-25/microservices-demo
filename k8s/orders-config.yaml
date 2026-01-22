@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: orders-config
+  namespace: ms-demo
+data:
+  CatalogApi__BaseUrl: http://catalog-api
+  ASPNETCORE_ENVIRONMENT: Development
